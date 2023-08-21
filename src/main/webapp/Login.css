@@ -1,0 +1,54 @@
+#tot
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(101, 179, 243);
+    color: white;
+}
+#pop
+{
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 18px;
+    height: 450px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    background-image: linear-gradient(rgb(241, 241, 122),rgb(247, 192, 91),rgb(245, 188, 198));
+}
+fieldset
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 450px;
+}
+.non
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 35px;
+    width: 250px;
+}
+button
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#cancel-button
+{
+    position: relative;
+    left: 20px;
+}
+button:hover
+{
+    background-color: rgb(176, 231, 228);
+    scale: 1.1;
+} 
+
+

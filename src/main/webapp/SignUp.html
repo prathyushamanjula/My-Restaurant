@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign Up Page</title>
+<link rel="stylesheet" href="SignUp.css">
+</head>
+<body>
+    <nav id="aa">
+        <h1>SignUp Page</h1>
+    </nav>
+    <div id="bb">
+    <form action="signup" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>
+                <b>Enter Your Details Here</b>
+            </legend>
+                <table>
+                    <tr>
+                        <th>NAME :</th>
+                        <td><input type="text" class="non"></td>
+                    </tr>
+                    <tr>
+                        <th>EMAIL :</th>
+                        <td><input type="email" class="non"></td>
+                    </tr>
+                    <tr>
+                        <th>MOBILE NUMBER :</th>
+                        <td>
+                            <input type="tel" pattern="[0-9]{10}" name="mobile"  class="non"required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>PASSWORD :</th>
+                        <td><input type="password" class="non"></td>
+                    </tr>
+                    <tr>
+                        <th>DATE OF BIRTH :</th>     
+                        <td>                      
+                            <input type="date" name="dob" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>GENDER :</th>
+                        <td>MALE <input type="radio" name="gender" value="male">
+                            FEMALE <input type="radio" name="gender" value="female">
+                            OTHER <input type="radio" name="gender" value="other">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>PICTURE :</th>
+                        <td> 
+                            <input type="file" name="picture">
+                        </td>
+                    </tr> 
+                    <tr>
+                        <th>COUNTRY :</th>
+                        <td>
+                            <select name="best" id="best">
+                                <option value="">India</option>
+                                <option value="">Dubai</option>
+                                <option value="">Uganda</option>
+                                <option value="">Russia</option>
+                                <option value="">Switzerland</option>
+                            </select> 
+                        </td>
+                    </tr> 
+                </table> <br>
+                <center>
+                    <div>
+                        <button>SignUp</button>
+                        <button type="reset" id="cancel-button">Cancel</button>
+                    </div> <br><br>
+                    <div>
+                        <h4>Already Have Account? <a href="./Login.html"> Click Here </a> To Login</h4>
+                    </div> <br>
+                    <div>
+                        <a href="./Home.html">
+                            <button>Home</button>
+                        </a>
+                    </div>
+                </center>
+        </fieldset>   
+    </form>
+    </div>
+</body>
+</html>
+
+
